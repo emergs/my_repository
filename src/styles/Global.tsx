@@ -100,6 +100,12 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
 
       whiteFixed: "#ffffff",
       mode: "#ffffff",
+
+      color1: "#b9d7d9",
+      color2: "#668284",
+      color3: "#2a2829",
+      color4: "#493736",
+      color5: "#7b3b3b"
     },
     sizes: {
       container: "75rem",
@@ -115,7 +121,7 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
       sectionMobile: "4rem",
     },
     fonts: {
-      titles: '"IBM Plex Sans", sans-serif;',
+      titles: '"Kalam", cursive;',
       texts: '"Inter", sans-serif',
     },
     fontSizes: {
