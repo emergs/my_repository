@@ -64,6 +64,21 @@ export const colors = {
     grey6: {
       color: "$grey6",
     },
+    color1: {
+      color: "$color1"
+    },
+    color2: {
+      color: "$color2"
+    },
+    color3: {
+      color: "$color3"
+    },
+    color4: {
+      color: "$color4"
+    },
+    color5: {
+      color: "$color5"
+    }
   },
 };
 
@@ -122,7 +137,7 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
     },
     fonts: {
       titles: '"Kalam", cursive;',
-      texts: '"Inter", sans-serif',
+      texts: '"Sansita", sans-serif;',
     },
     fontSizes: {
       title1: "2.75rem",

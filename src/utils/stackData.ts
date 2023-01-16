@@ -14,7 +14,7 @@ import {
 export const stackData = [
   {
     title: "HTML",
-    img: FaHtml5,
+    img: FaHtml5
   },
   {
     title: "CSS",
