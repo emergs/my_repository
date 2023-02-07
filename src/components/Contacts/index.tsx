@@ -32,7 +32,7 @@ export const Contacts = () => {
             <ContactSectionText>
               <Text type="heading2" color="grey4">
                 Let's talk and{" "}
-                <Text as="span" type="heading2" color="brand1">
+                <Text as="span" type="heading2" color="color5">
                   develop solutions for your company
                 </Text>
                 , together!
@@ -42,7 +42,7 @@ export const Contacts = () => {
           <ContactsCards>
             <ContactCard>
               <ContactCardImage className="wpp">
-                <FaWhatsapp color="#fff" size={24} />
+                <FaWhatsapp color="#fff" size={32} />
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
@@ -66,7 +66,7 @@ export const Contacts = () => {
 
             <ContactCard>
               <ContactCardImage className="email">
-                <FaEnvelopeOpen color="#fff" size={24} />
+                <FaEnvelopeOpen color="#fff" size={32} />
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">
@@ -92,7 +92,7 @@ export const Contacts = () => {
             </ContactCard>
             <ContactCard>
               <ContactCardImage className="linkedin">
-                <FaLinkedin color="#fff" size={24} />
+                <FaLinkedin color="#fff" size={32} />
               </ContactCardImage>
               <ContactCardContent>
                 <Text type="heading4" color="grey4">

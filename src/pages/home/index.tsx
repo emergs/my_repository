@@ -44,15 +44,15 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text type="body1" color="grey4">Hello, my name is {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
-              <Text as="span" type="heading1" color="brand1">
+              I{" "}
+              <Text as="span" type="heading1" color="color5">
                 love
               </Text>{" "}
               creating and{" "}
-              <Text as="span" type="heading1" color="brand1">
+              <Text as="span" type="heading1" color="color5">
                 developing
               </Text>{" "}
               projects
@@ -62,7 +62,7 @@ export const Home = (): JSX.Element => {
               my projects and technologies
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" type="primary" href="#projects">
+              <Button as="a" href="#projects">
                 See Projects
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>

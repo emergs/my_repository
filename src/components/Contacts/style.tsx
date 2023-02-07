@@ -43,10 +43,10 @@ export const ContactCard = styled("div", {
   display: "flex",
   paddingRight: "10rem",
   marginBottom: "6rem",
-  ["& a"]:{
-    "&:hover":{
-        color: "$grey4",
-        cursor: "pointer"
+  ["& a"]: {
+    "&:hover": {
+      color: "$grey4",
+      cursor: "pointer"
     }
   },
   "@mobile": {
@@ -66,12 +66,15 @@ export const ContactCardImage = styled("div", {
 
   ["&.wpp"]: {
     background: "linear-gradient(180deg, #50C571 0%, #50CF9A 100%)",
+    borderRadius: "50%"
   },
   ["&.email"]: {
     background: "linear-gradient(180deg, #BD3B9B 0%, #EE5BC7 100%)",
+    borderRadius: "50%"
   },
   ["&.linkedin"]: {
     background: "linear-gradient(180deg, #4E73FF 0%, #506CCF 100%)",
+    borderRadius: "50%"
   }
 });
 

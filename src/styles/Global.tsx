@@ -64,6 +64,21 @@ export const colors = {
     grey6: {
       color: "$grey6",
     },
+    color1: {
+      color: "$color1"
+    },
+    color2: {
+      color: "$color2"
+    },
+    color3: {
+      color: "$color3"
+    },
+    color4: {
+      color: "$color4"
+    },
+    color5: {
+      color: "$color5"
+    }
   },
 };
 
@@ -100,6 +115,12 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
 
       whiteFixed: "#ffffff",
       mode: "#ffffff",
+
+      color1: "#b9d7d9",
+      color2: "#668284",
+      color3: "#2a2829",
+      color4: "#493736",
+      color5: "#7b3b3b"
     },
     sizes: {
       container: "75rem",
@@ -115,8 +136,8 @@ export const GlobalStyle = ({ children }: GlobalStyleProps): JSX.Element => {
       sectionMobile: "4rem",
     },
     fonts: {
-      titles: '"IBM Plex Sans", sans-serif;',
-      texts: '"Inter", sans-serif',
+      titles: '"Kalam", cursive;',
+      texts: '"Sansita", sans-serif;',
     },
     fontSizes: {
       title1: "2.75rem",
