@@ -9,7 +9,7 @@ import backgroundImg from "@/public/static/img/background/header-bg.svg";
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
-  backgroundColor: "$grey1",
+  backgroundColor: "#020413",
   padding: "12rem 0 8rem 0",
   backgroundImage: `url(${backgroundImg})`,
   backgroundRepeat: "no-repeat",
@@ -74,15 +74,15 @@ export const UserImage = styled("img", {
 });
 
 export const StackSection = styled("div", {
-  backgroundColor: "$grey4",
+  backgroundColor: "none",
   padding: "4rem 0 2rem 0",
 });
 
 export const StackCards = styled("div", {
   display: "grid",
   gridTemplateColumns: "1fr 1fr 1fr 1fr",
-  padding: "3rem 0",
-  gap: "6rem",
+  padding: "1rem 0",
+  gap: "2rem",
   marginTop: "$4",
 
   "@tablet": {

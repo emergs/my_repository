@@ -6,10 +6,11 @@ interface StackProps {
   title: string;
   icon: string | IconType;
   key: number;
+  colors: string | undefined;
 }
 
 export const Stack = (
-  { title, icon: Icon }: StackProps,
+  { colors, title, icon: Icon }: StackProps,
   key: number
 ): JSX.Element => {
   const isString = typeof Icon === "string";
@@ -18,9 +19,9 @@ export const Stack = (
     <StackCard className={`${key}`} key={key}>
       <Text>{title}</Text>
       {isString ? (
-        <img src={Icon} alt={title} title={title} height="84px" width="84px" />
+        <img src={Icon} alt={title} title={title} height="70px" width="70px" color={colors} />
       ) : (
-        <Icon size={84} color="#43494f" />
+        <Icon size={84} color={colors} />
       )}
     </StackCard>
   );
