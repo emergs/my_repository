@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}?tab=repositories`;
 
   return (
     <main id="home">
@@ -41,32 +41,32 @@ export const Home = (): JSX.Element => {
                 src={`https://github.com/${userData.githubUser}.png`}
                 alt={userData.nameUser}
                 title={userData.nameUser}
-                width={"48px"}
-                height={"48px"}
+                width={"150px"}
+                height={"150px"}
               />
-              <Text type="body1" color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text type="heading4" color="grey4">Olá, meu nome é {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-              I{" "}
+              Sou{" "}
               <Text as="span" type="heading1" color="color5">
-                love
+                apaixonado
               </Text>{" "}
-              creating and{" "}
+              por tecnologia e {" "}
               <Text as="span" type="heading1" color="color5">
-                developing
+                desenvolvimento
               </Text>{" "}
-              projects
+              web
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              Descubra aqui neste ambiente, criado especialmente para você, todos
+              meus projetos e tecnologias
             </Text>
             <HeaderButtonsArea>
-              <Button as="a" href="#projects">
-                See Projects
+              <Button as="a" href="#projects" css={{ "&:hover": { backgroundColor: "$color5" } }}>
+                Ver Projetos
               </Button>
               <Button as="a" type="outline" target="_blank" href={portfolioUrl}>
-                See my portfolio source code
+                Acesse meus repositórios do Github
               </Button>
               <Button
                 color="grey5"
@@ -81,7 +81,7 @@ export const Home = (): JSX.Element => {
             </HeaderButtonsArea>
             <StackCards>
               {stackData.map((stack, index) => (
-                <Stack key={index} title={stack.title} icon={stack.img} />
+                <Stack key={index} title={stack.title} icon={stack.img} colors={stack.colors} />
               ))}
             </StackCards>
           </HeaderContent>
@@ -91,13 +91,13 @@ export const Home = (): JSX.Element => {
         <Container>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
-              <Text as="h2" type="heading4" color="grey4">
-                My projects
+              <Text as="h2" type="heading3" color="grey4">
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns de{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  meus projetos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>

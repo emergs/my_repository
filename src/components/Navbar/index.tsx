@@ -14,6 +14,7 @@ import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { Button } from "@/styles/Buttons";
 import { Container, Flex } from "@/styles/Global";
+import logo from "../../public/static/img/logo/logo-emer.png"
 
 export interface MenuButtonOpen {
   open: Boolean;
@@ -37,7 +38,7 @@ export const NavBar = (): JSX.Element => {
       <Container>
         <NavbarMobileArea>
           <LogoTipo>
-            <LogoTipoText>{userData.nameUser}</LogoTipoText>
+            <LogoTipoText><img src={logo} /></LogoTipoText>
           </LogoTipo>
           {isWide && (
             <Button
@@ -60,17 +61,34 @@ export const NavBar = (): JSX.Element => {
 export const NavLinks = (): JSX.Element => {
   return (
     <NavbarLinks>
-      <Button type="btLink" as="a" color="grey4" href={`#home`}>
+      <Button type="btLink" as="a" color="grey4" href={`#home`}
+        css={{
+          "&:hover": {
+            color: "$color5",
+          }
+        }}>
         Home
       </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#projects`}>
-        Projects
+      <Button type="btLink" as="a" color="grey4" href={`#projects`} css={{
+        "&:hover": {
+          color: "$color5",
+        }
+      }}>
+        Projetos
       </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#contact`}>
-        Contact
+      <Button type="btLink" as="a" color="grey4" href={`#contact`} css={{
+        "&:hover": {
+          color: "$color5",
+        }
+      }}>
+        Contato
       </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#social-media`}>
-        Social Media
+      <Button type="btLink" as="a" color="grey4" href={`#social-media`} css={{
+        "&:hover": {
+          color: "$color5",
+        }
+      }}>
+        Mídias Sociais
       </Button>
     </NavbarLinks>
   );

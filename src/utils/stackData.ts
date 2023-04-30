@@ -1,71 +1,59 @@
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiPostgresql, SiTypescript, SiMongodb, SiDjango, SiMysql } from "react-icons/si";
-import { FaGit, FaPython } from "react-icons/fa";
-import {
-  FaDocker,
-  FaHtml5,
-  FaCss3Alt,
-  FaJs,
-  FaNode,
-  FaReact,
-  FaGithub
-} from "react-icons/fa";
-
 export const stackData = [
   {
-    title: "HTML",
-    img: FaHtml5
+    title: "HTML5",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
   },
   {
-    title: "CSS",
-    img: FaCss3Alt,
+    title: "CSS3",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   },
   {
-    title: "JS",
-    img: FaJs,
+    title: "JavaScript",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
     title: "TypeScript",
-    img: SiTypescript
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
   },
   {
-    title: "Node JS",
-    img: FaNode,
+    title: "NodeJS",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
   },
   {
-    title: "React",
-    img: FaReact,
+    title: "ReactJS",
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
   },
   {
     title: "Github",
-    img: FaGithub
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    colors: "white"
   },
   {
     title: "Docker",
-    img: FaDocker
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
   },
   {
     title: "PostgreSQL",
-    img: SiPostgresql
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
   },
   {
     title: "Git",
-    img: FaGit
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
   },
   {
     title: "Python",
-    img: FaPython
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
   },
   {
     title: "Django",
-    img: SiDjango
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
   },
   {
     title: "MongoDB",
-    img: SiMongodb
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
   },
   {
     title: "MySQL",
-    img: SiMysql
+    img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
   }
 ];
