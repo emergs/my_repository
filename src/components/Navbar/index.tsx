@@ -61,17 +61,34 @@ export const NavBar = (): JSX.Element => {
 export const NavLinks = (): JSX.Element => {
   return (
     <NavbarLinks>
-      <Button type="btLink" as="a" color="grey4" href={`#home`}>
+      <Button type="btLink" as="a" color="grey4" href={`#home`}
+        css={{
+          "&:hover": {
+            color: "$color5",
+          }
+        }}>
         Home
       </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#projects`}>
-        Projects
+      <Button type="btLink" as="a" color="grey4" href={`#projects`} css={{
+        "&:hover": {
+          color: "$color5",
+        }
+      }}>
+        Projetos
       </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#contact`}>
-        Contact
+      <Button type="btLink" as="a" color="grey4" href={`#contact`} css={{
+        "&:hover": {
+          color: "$color5",
+        }
+      }}>
+        Contato
       </Button>
-      <Button type="btLink" as="a" color="grey4" href={`#social-media`}>
-        Social Media
+      <Button type="btLink" as="a" color="grey4" href={`#social-media`} css={{
+        "&:hover": {
+          color: "$color5",
+        }
+      }}>
+        Mídias Sociais
       </Button>
     </NavbarLinks>
   );

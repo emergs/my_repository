@@ -79,3 +79,13 @@ export const Project = styled("article", {
     },
   },
 });
+
+export const FigureProjects = styled("figure", {
+  width: "500px",
+  height: "100px"
+})
+
+export const ImageProjects = styled("img", {
+  width: "100%",
+  height: "100%"
+})

@@ -91,13 +91,13 @@ export const Home = (): JSX.Element => {
         <Container>
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
-              <Text as="h2" type="heading4" color="grey4">
-                My projects
+              <Text as="h2" type="heading3" color="grey4">
+                Meus Projetos
               </Text>
               <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
+                Alguns de{" "}
                 <Text as="span" color="brand5">
-                  side projects
+                  meus projetos
                 </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
